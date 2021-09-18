@@ -59,58 +59,57 @@
                         </b>
                     </div>
                 </div>
-                <nav class="mobile_menu">
-                    <div class="mobile_menu_block">
-                        <a href="<?php echo $baseurl;?>">
-                            <div>HOME</div>
-                        </a>
-                        <a href="<?php echo $baseurl;?>">
-                            <div>ABOUT US</div>
-                        </a>
-                        <a open_id="prod" class="tg">
-                            <div>PRODUCTS
-                                <i class="fa fa-angle-down" aria-hidden="true"></i>
-                            </div>
-                        </a>
-
-                        <div class="mobile_menu_sub" id="sub_prod">
-                            <a href="#">
-                                <div>All</div>
-                            </a>
-                            <a href="#">
-                                <div>Seating</div>
-                            </a>
-                            <a href="#">
-                                <div>Tables</div>
-                            </a>
-                        </div>
-
-                        <a open_id="info" class="tg">
-                            <div>INFO
-                                <i class="fa fa-angle-down" aria-hidden="true"></i>
-                            </div>
-                        </a>
-
-                        <div class="mobile_menu_sub" id="sub_info">
-                            <a href="#">
-                                <div>Shippig</div>
-                            </a>
-                            <a href="#">
-                                <div>Privacy</div>
-                            </a>
-                            <a href="#">
-                                <div>Terms</div>
-                            </a>
-                        </div>
-
-                        <a href="<?php echo $baseurl;?>">
-                            <div>CONTACT</div>
-                        </a>
-                    </div>
-                </nav>
             </div>
         </header>
+        <nav class="mobile_menu">
+            <div class="mobile_menu_block">
+                <a href="<?php echo $baseurl;?>">
+                    <div>HOME</div>
+                </a>
+                <a href="<?php echo $baseurl;?>">
+                    <div>ABOUT US</div>
+                </a>
+                <a open_id="prod" class="tg">
+                    <div>PRODUCTS
+                        <i class="fa fa-angle-down" aria-hidden="true"></i>
+                    </div>
+                </a>
 
+                <div class="mobile_menu_sub" id="sub_prod">
+                    <a href="#">
+                        <div>All</div>
+                    </a>
+                    <a href="#">
+                        <div>Seating</div>
+                    </a>
+                    <a href="#">
+                        <div>Tables</div>
+                    </a>
+                </div>
+
+                <a open_id="info" class="tg">
+                    <div>INFO
+                        <i class="fa fa-angle-down" aria-hidden="true"></i>
+                    </div>
+                </a>
+
+                <div class="mobile_menu_sub" id="sub_info">
+                    <a href="#">
+                        <div>Shippig</div>
+                    </a>
+                    <a href="#">
+                        <div>Privacy</div>
+                    </a>
+                    <a href="#">
+                        <div>Terms</div>
+                    </a>
+                </div>
+
+                <a href="<?php echo $baseurl;?>">
+                    <div>CONTACT</div>
+                </a>
+            </div>
+        </nav>
         <div class="s-slider-wrap_temp">
             <div class="slider-text-block">
                 <a href="#point">
@@ -128,9 +127,23 @@
         <a href="#point"> <span id="pointer"><img src="img/icon.svg"></span></a>
     </div>
 
-    <span id="point"></span>
-    
+        <span id="point"></span>
+    <section class="portfolio_menu_section">
+        <div class="waraper bottom_menu">
+            <div class="portfolio-area ptb-top-60">
+                <div class="container-fluid">
+                    <div class="portfolio-menu text-center mb-50">
+                        <button class="active" data-filter="*">ALL</button>
+                        <button data-filter=".cat1">Seating</button>
+                        <button data-filter=".cat3">Tables</button>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
     <section class="portfolio">
+
         <div class="portfolio-area ptb-top-60">
             <div class="container-fluid">
                 <div class="row grid">
