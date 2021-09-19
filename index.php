@@ -167,6 +167,24 @@
             </div>
 <div>
 
+
+
+
+<div class="cat_wrap_col">
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
             <div class="cat_wrap_col_big">
                 <div class="categories_block_left">
                     <div class="categories_item cat_col_1big">
