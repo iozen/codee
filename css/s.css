@@ -473,6 +473,11 @@ footer div {
     width: 25%;
 }
 
+.cat_col_1big {
+    flex-grow: 1;
+    flex-basis: 400px;
+    width: 25%;
+}
 .cat_col_2 {
     flex-grow: 2;
     flex-basis: 400px;

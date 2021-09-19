@@ -31,6 +31,7 @@ html * {
 body {
     margin: 0;
     font-size: 14px;
+    /*color: #464646;*/
     color: #262626;
     font-family: 'TT Norms', sans-serif;
 }
@@ -472,12 +473,22 @@ footer div {
     width: 25%;
 }
 
+.cat_col_1big {
+    flex-grow: 1;
+    flex-basis: 400px;
+    width: 25%;
+}
 .cat_col_2 {
     flex-grow: 2;
     flex-basis: 400px;
     width: 51%;
 }
 
+.cat_col_2big {
+    flex-grow: 999;
+    flex-basis: 800px;
+    width: 51%;
+}
 .cat_wrap_col_big {
     flex-grow: 1;
     flex-basis: 1000px;
