@@ -31,7 +31,6 @@ html * {
 body {
     margin: 0;
     font-size: 14px;
-    /*color: #464646;*/
     color: #262626;
     font-family: 'TT Norms', sans-serif;
 }
