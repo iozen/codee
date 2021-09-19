@@ -3,21 +3,16 @@
 <html>
 
 <head>
-    <title>codde</title>
+    <title>Codee | Home </title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="shortcut icon" type="image/x-icon" href="<?php echo $baseurl;?>img/favicon.png">
     <link rel="stylesheet" href="<?php echo $baseurl;?>css/s.css">
-    <link rel="stylesheet" href="<?php echo $baseurl;?>css/grid.css">
-    <link rel="stylesheet" href="<?php echo $baseurl;?>css/portfolio.css">
     <link rel="stylesheet" href="<?php echo $baseurl;?>css/font-awesome/css/font-awesome.min.css">
 
     <script src="jquery/jquery-3.1.1.min.js"></script>
     <script src="js/main_codee.js"></script>
     <script src="js/to_top.js"></script>
-    <script src="js/isotope.pkgd.min.js"></script>
-    <script src="js/imagesloaded.pkgd.min.js"></script>
-    <script src="js/jquery.meanmenu.js"></script>
-    <script src="js/main.js"></script>
+    <!--<meta http-equiv="refresh" content="2">-->
 </head>
 
 <body id="top_point">
@@ -113,13 +108,15 @@
 
         <div class="s-slider-wrap_temp">
             <div class="slider-text-block">
-                <a href="#point">
-                    <h2 class="slider-text-h2" id="slider_action"><span id="slider_bt">
+                <h2 class="slider-text-h2" id="slider_action">
+                    <span id="slider_bt">
+                        <a href="#point">
                             <span class="headline-text-el">the spirit </span>
                             <span class="headline-text-el">of</span>
                             <span class="headline-text-el" style="padding-right:15px;"> home</span>
-                        </span></h2>
-                </a>
+                        </a>
+                    </span>
+                </h2>
             </div>
         </div>
 
@@ -128,166 +125,81 @@
         <a href="#point"> <span id="pointer"><img src="img/icon.svg"></span></a>
     </div>
 
-    <span id="point"></span>
-    
     <section class="portfolio">
-        <div class="portfolio-area ptb-top-60">
-            <div class="container-fluid">
-                <div class="row grid">
-                    <div class="col-lg-3 col-md-6 col-sm-6 col-12 grid-item cat1">
-                        <div class="portfolio hover-style">
-                            <div class="portfolio-img">
-                                <img src="img/portfolio/1.jpg" alt="" />
-                                <div class="portfolio-view">
-                                </div>
-                                <div class="portfolio-title title-style-1">
-                                    <h3><a href="#">Ling </a></h3>
-                                    <span>Dining Chair</span>
-                                </div>
-                            </div>
-                        </div>
+
+        <div class="categories_wrap">
+            <span id="point"></span>
+
+            <div class="cat_wrap_col">
+                <div class="categories_block">
+                    <div class="categories_item cat_col_1">
+                        <img src="img/portfolio/2.jpg" width="100%">
+                        <div class="cat_item_inner">Coffe table</div>
                     </div>
-                    <div class="col-lg-3 col-md-6 col-sm-6 col-12 grid-item cat2 cat3">
-                        <div class="portfolio hover-style">
-                            <div class="portfolio-img">
-                                <img src="img/portfolio/2.jpg" alt="" />
-                                <div class="portfolio-view">
-                                </div>
-                                <div class="portfolio-title title-style-1">
-                                    <h3><a href="#">Hive </a></h3>
-                                    <span>Coffee Table</span>
-                                </div>
-                            </div>
-                        </div>
+                    <div class="categories_item cat_col_1">
+                        <img src="img/portfolio/1.jpg" width="100%">
                     </div>
-                    <div class="col-lg-6 col-md-6 col-sm-6 col-12 grid-item cat1">
-                        <div class="portfolio hover-style">
-                            <div class="portfolio-img">
-                                <img src="img/portfolio/9.jpg" alt="" />
-                                <div class="portfolio-view">
-                                </div>
-                                <div class="portfolio-title title-style-1">
-                                    <h3><a href="#">Clouds </a></h3>
-                                    <span>Seats</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-6 col-md-6 col-sm-6 col-12 grid-item cat2">
-                        <div class="portfolio hover-style">
-                            <div class="portfolio-img">
-                                <img src="img/portfolio/10.jpg" alt="" />
-                                <div class="portfolio-view">
-                                </div>
-                                <div class="portfolio-title title-style-1">
-                                    <h3><a href="#">Hive </a></h3>
-                                    <span>Coffee Table</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6 col-sm-6 col-12 grid-item cat1">
-                        <div class="portfolio hover-style">
-                            <div class="portfolio-img">
-                                <img src="img/portfolio/3.jpg" alt="" />
-                                <div class="portfolio-view">
-                                </div>
-                                <div class="portfolio-title title-style-1">
-                                    <h3><a href="#">Ling </a></h3>
-                                    <span>Bar Stool</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6 col-sm-6 col-12 grid-item cat3">
-                        <div class="portfolio hover-style">
-                            <div class="portfolio-img">
-                                <img src="img/portfolio/4.jpg" alt="" />
-                                <div class="portfolio-view">
-                                </div>
-                                <div class="portfolio-title title-style-1">
-                                    <h3><a href="#">TITLE GOES HERE </a></h3>
-                                    <span>Development</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6 col-sm-6 col-12 grid-item cat2 cat3">
-                        <div class="portfolio hover-style">
-                            <div class="portfolio-img">
-                                <img src="img/portfolio/5.jpg" alt="" />
-                                <div class="portfolio-view">
-                                </div>
-                                <div class="portfolio-title title-style-1">
-                                    <h3><a href="#">TITLE GOES HERE </a></h3>
-                                    <span>Development</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-6 col-md-6 col-sm-6 col-12 grid-item cat3">
-                        <div class="portfolio hover-style">
-                            <div class="portfolio-img">
-                                <img src="img/portfolio/11.jpg" alt="" />
-                                <div class="portfolio-view">
-                                </div>
-                                <div class="portfolio-title title-style-1">
-                                    <h3><a href="#">Hive </a></h3>
-                                    <span>Coffee Table</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6 col-sm-6 col-12 grid-item cat1">
-                        <div class="portfolio hover-style">
-                            <div class="portfolio-img">
-                                <img src="img/portfolio/6.jpg" alt="" />
-                                <div class="portfolio-view">
-                                </div>
-                                <div class="portfolio-title title-style-1">
-                                    <h3><a href="#">Clouds </a></h3>
-                                    <span>Seats</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6 col-sm-6 col-12 grid-item cat1">
-                        <div class="portfolio hover-style">
-                            <div class="portfolio-img">
-                                <img src="img/portfolio/7.jpg" alt="" />
-                                <div class="portfolio-view">
-                                </div>
-                                <div class="portfolio-title title-style-1">
-                                    <h3><a href="#">Clouds </a></h3>
-                                    <span>Seats</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6 col-sm-6 col-12 grid-item cat1">
-                        <div class="portfolio hover-style">
-                            <div class="portfolio-img">
-                                <img src="img/portfolio/8.jpg" alt="" />
-                                <div class="portfolio-view">
-                                </div>
-                                <div class="portfolio-title title-style-1">
-                                    <h3><a href="#">Weekend </a></h3>
-                                    <span>Armchair</span>
-                                </div>
-                            </div>
-                        </div>
+
+                </div>
+                <div class="categories_block">
+                    <div class="categories_item cat_col_2">
+                        <img src="img/portfolio/9.jpg" width="100%">
                     </div>
                 </div>
-                <span id="point"></span>
-                <div class="view-more text-center">
-                    <a href="#">view more</a>
+
+            </div>
+            <div class="cat_wrap_col">
+                <div class="categories_block">
+                    <div class="categories_item cat_col_2">
+                        <img src="img/portfolio/10.jpg" width="100%">
+                    </div>
+                </div>
+
+                <div class="categories_block">
+                    <div class="categories_item cat_col_1">
+                        <img src="img/portfolio/3.jpg" width="100%">
+                    </div>
+                    <div class="categories_item cat_col_1">
+                        <img src="img/portfolio/6.jpg" width="100%">
+                    </div>
+
                 </div>
             </div>
+
+            <div class="cat_wrap_col_big">
+
+                <div class="categories_block_left">
+                    <div class="categories_item cat_col_1">
+                        <img src="img/portfolio/7.jpg" width="100%">
+                    </div>
+                    <div class="categories_item cat_col_1">
+                        <img src="img/portfolio/8.jpg" width="100%">
+                    </div>
+
+                </div>
+                <div class="categories_block_center">
+                    <div class="categories_item cat_col_2">
+                        <img src="img/portfolio/11.jpg" width="100%">
+                    </div>
+
+                </div>
+                <div class="categories_block_left">
+                    <div class="categories_item cat_col_1">
+                        <img src="img/portfolio/2.jpg" width="100%">
+                    </div>
+                    <div class="categories_item cat_col_1">
+                        <img src="img/portfolio/3.jpg" width="100%">
+                    </div>
+
+                </div>
+
+
+            </div>
+
+
         </div>
+
     </section>
-
-
-
     <footer>
         <div>
             <a href="<?php echo $baseurl;?>">
@@ -296,7 +208,7 @@
 
         <div>Phone : +48796301383</div>
         <div>Email : info@codeehome.com</div>
-        <div>Address : Your address goes here. Victoria</div>
+        <div>Address : Your address goes here.</div>
 
         <div class="social_icon">
             <a href="https://www.instagram.com/codeehome/?hl=en" target="_blank">

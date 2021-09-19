@@ -7,4 +7,5 @@ define("DB_LOGIN", "---");
 define("DB_PASS", "---");
 /*  Options  */
 $baseurl = "http://codee.loc/";
+
  ?>
