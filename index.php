@@ -125,99 +125,29 @@
         <a href="#point"> <span id="pointer"><img src="img/icon.svg"></span></a>
     </div>
 
-    <section class="portfolio">
 
-        <div class="categories_wrap">
-            <span id="point"></span>
+    <section class="portfolio_wrapper">
 
-            <div class="cat_wrap_col">
-                <div class="categories_block">
-                    <div class="categories_item cat_col_1">
-                        <img src="img/portfolio/2.jpg" width="100%">
-                        <div class="cat_item_inner">Coffe table</div>
-                    </div>
-                    <div class="categories_item cat_col_1">
-                        <img src="img/portfolio/1.jpg" width="100%">
-                    </div>
+        <div class="portfolio_block block1"><img src="img/portfolio/2.jpg"></div>
+        <div class="portfolio_block block2"><img src="img/portfolio/1.jpg"></div>
+        <div class="portfolio_block block3"><img src="img/portfolio/9.jpg"></div>
+        <div class="portfolio_block block4"><img src="img/portfolio/10.jpg"></div>
+        <div class="portfolio_block block5"><img src="img/portfolio/3.jpg"></div>
+        <div class="portfolio_block block6"><img src="img/portfolio/6.jpg"></div>
+        <div class="portfolio_block block7"><img src="img/portfolio/7.jpg"></div>
+        <div class="portfolio_block block8"><img src="img/portfolio/8.jpg"></div>
+        <div class="portfolio_block block9"><img src="img/portfolio/11.jpg"></div>
+        <div class="portfolio_block block10"><img src="img/portfolio/2.jpg"></div>
+        <div class="portfolio_block block11"><img src="img/portfolio/3.jpg"></div>
 
-                </div>
-                <div class="categories_block">
-                    <div class="categories_item cat_col_2">
-                        <img src="img/portfolio/9.jpg" width="100%">
-                    </div>
-                </div>
-
-            </div>
-            <div class="cat_wrap_col">
-                <div class="categories_block">
-                    <div class="categories_item cat_col_2">
-                        <img src="img/portfolio/10.jpg" width="100%">
-                    </div>
-                </div>
-
-                <div class="categories_block">
-                    <div class="categories_item cat_col_1">
-                        <img src="img/portfolio/3.jpg" width="100%">
-                    </div>
-                    <div class="categories_item cat_col_1">
-                        <img src="img/portfolio/6.jpg" width="100%">
-                    </div>
-
-                </div>
-            </div>
-<div>
-
-
-
-
-<div class="cat_wrap_col">
-
-
-
-
-</div>
-
-
-
-
-
-
-
-
-
-            <div class="cat_wrap_col_big">
-                <div class="categories_block_left">
-                    <div class="categories_item cat_col_1big">
-                        <img src="img/portfolio/7.jpg" width="100%">
-                    </div>
-                    <div class="categories_item cat_col_1big">
-                        <img src="img/portfolio/8.jpg" width="100%">
-                    </div>
-
-                </div>
-                <div class="categories_block_center">
-                    <div class="categories_item cat_col_2">
-                        <img src="img/portfolio/11.jpg" width="100%">
-                    </div>
-
-                </div>
-                <div class="categories_block_left">
-                    <div class="categories_item cat_col_1big">
-                        <img src="img/portfolio/2.jpg" width="100%">
-                    </div>
-                    <div class="categories_item cat_col_1big">
-                        <img src="img/portfolio/3.jpg" width="100%">
-                    </div>
-
-                </div>
-
-
-            </div>
-</div>
-
-        </div>
 
     </section>
+
+
+
+
+
+
     <footer>
         <div>
             <a href="<?php echo $baseurl;?>">

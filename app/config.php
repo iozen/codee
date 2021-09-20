@@ -6,6 +6,6 @@ define("NAME_DB", "---");
 define("DB_LOGIN", "---");
 define("DB_PASS", "---");
 /*  Options  */
-$baseurl = "http://localhost/codee/";
+$baseurl = "http://codee.loc/";
 
  ?>
