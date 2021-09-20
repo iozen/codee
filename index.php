@@ -8,11 +8,9 @@
     <link rel="shortcut icon" type="image/x-icon" href="<?php echo $baseurl;?>img/favicon.png">
     <link rel="stylesheet" href="<?php echo $baseurl;?>css/s.css">
     <link rel="stylesheet" href="<?php echo $baseurl;?>css/font-awesome/css/font-awesome.min.css">
-
     <script src="jquery/jquery-3.1.1.min.js"></script>
     <script src="js/main_codee.js"></script>
     <script src="js/to_top.js"></script>
-    <!--<meta http-equiv="refresh" content="2">-->
 </head>
 
 <body id="top_point">
@@ -33,7 +31,6 @@
                                 </ul>
                             </li>
                             <li class="dropdown">INFO
-
                                 <ul class="header_menu_h_sub">
                                     <li><a href="#">Shippig</a></li>
                                     <li><a href="#">Privacy</a></li>
@@ -125,10 +122,8 @@
         <a href="#point"> <span id="pointer"><img src="img/icon.svg"></span></a>
     </div>
 
-
     <section class="portfolio_wrapper">
-
-        <div class="portfolio_block block1"><img src="img/portfolio/2.jpg"></div>
+        <div class="portfolio_block block1" id="point"><img src="img/portfolio/2.jpg"></div>
         <div class="portfolio_block block2"><img src="img/portfolio/1.jpg"></div>
         <div class="portfolio_block block3"><img src="img/portfolio/9.jpg"></div>
         <div class="portfolio_block block4"><img src="img/portfolio/10.jpg"></div>
@@ -139,15 +134,7 @@
         <div class="portfolio_block block9"><img src="img/portfolio/11.jpg"></div>
         <div class="portfolio_block block10"><img src="img/portfolio/2.jpg"></div>
         <div class="portfolio_block block11"><img src="img/portfolio/3.jpg"></div>
-
-
     </section>
-
-
-
-
-
-
     <footer>
         <div>
             <a href="<?php echo $baseurl;?>">
