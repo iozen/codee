@@ -6,7 +6,7 @@
     <title>Codee | Home </title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="shortcut icon" type="image/x-icon" href="<?php echo $baseurl;?>img/favicon.png">
-    <link rel="stylesheet" href="<?php echo $baseurl;?>css/s3.css">
+    <link rel="stylesheet" href="<?php echo $baseurl;?>css/s2.css">
     <link rel="stylesheet" href="<?php echo $baseurl;?>css/font-awesome/css/font-awesome.min.css">
     <script src="jquery/jquery-3.1.1.min.js"></script>
     <script src="js/main_codee.js"></script>
@@ -15,12 +15,12 @@
 
 <body id="top_point">
 
-    <section class="mobile_menu_wrapper">
+<section class="mobile_menu_wrapper">
 
 
 
 
-    </section>
+</section>
 
 
     <section class="header__wrapper">
@@ -51,20 +51,16 @@
                     </div>
                     <div class="item menu_mobile">
                         <b href="#nav" class="meanmenu-reveal mm-span">
-                            <span id="istart_span"></span>
-                            <span id="imiddle_span"></span>
-                            <span id="ilast_span"></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
                         </b>
                         <b href="#nav" class="meanmenu-reveal mm-x">
                             <b class="nav_x">X</b>
                         </b>
                     </div>
                 </div>
-
-
-
                 <nav class="mobile_menu">
-
                     <div class="mobile_menu_block">
                         <a href="<?php echo $baseurl;?>">
                             <div>HOME</div>
@@ -72,52 +68,42 @@
                         <a href="<?php echo $baseurl;?>">
                             <div>ABOUT US</div>
                         </a>
-                        <a open_id="prod" class="tg">
-                            <div>PRODUCTS
-                                <i class="fa fa-angle-down" aria-hidden="true"></i>
+                        <a href="<?php echo $baseurl;?>">
+                            <div>-</div>
+                        </a>
+                        <a open_id="prod">
+                            <div>All PRODUCTS
+                            </div>
+                        </a>
+                        <a open_id="prod">
+                            <div>SEATING
+                            </div>
+                        </a>
+                        <a open_id="prod">
+                            <div>TABLES
                             </div>
                         </a>
 
-                        <div class="mobile_menu_sub" id="sub_prod">
-                            <a href="#">
-                                <div>All</div>
-                            </a>
-                            <a href="#">
-                                <div>Seating</div>
-                            </a>
-                            <a href="#">
-                                <div>Tables</div>
-                            </a>
-                        </div>
-
-                        <a open_id="info" class="tg">
-                            <div>INFO
-                                <i class="fa fa-angle-down" aria-hidden="true"></i>
-                            </div>
+                        <a href="<?php echo $baseurl;?>">
+                            <div>-</div>
                         </a>
-
-                        <div class="mobile_menu_sub" id="sub_info">
                             <a href="#">
-                                <div>Shippig</div>
+                                <div>SHIPPING</div>
                             </a>
                             <a href="#">
-                                <div>Privacy</div>
+                                <div>PRIVACY</div>
                             </a>
                             <a href="#">
-                                <div>Terms</div>
+                                <div>TERMS</div>
                             </a>
-                        </div>
-
-                        <a href="<?php echo $baseurl;?>" class="mobile_menu_last">
+                        <a href="<?php echo $baseurl;?>">
+                            <div>-</div>
+                        </a>
+                        <a href="<?php echo $baseurl;?>">
                             <div>CONTACT</div>
                         </a>
                     </div>
                 </nav>
-
-                <div align="center" class="mobile_menu_close_point">
-                    <img src="img/icon_white.svg">
-                </div>
-
             </div>
         </header>
 
@@ -141,7 +127,7 @@
     </div>
     <section class="portfolio_wrapper">
         <div class="portfolio_block block1 p_small" id="point">
-            1111 </div>
+           1111        </div>
         <div class="portfolio_block block2 p_small">
             2222
         </div>
@@ -149,29 +135,31 @@
             3333
         </div>
         <div class="portfolio_block block4 p_big">
-            4444 </div>
+           4444        </div>
         <div class="portfolio_block block5 p_small">
-            5555
+           5555
         </div>
         <div class="portfolio_block block6 p_small">
-            6666 </div>
+            6666        </div>
         <div class="portfolio_block block7 p_small">
             7777
         </div>
         <div class="portfolio_block block8 p_big_bot">
-            8888 </div>
+            8888        </div>
         <div class="portfolio_block block9 p_small">
             9999
         </div>
         <div class="portfolio_block block10 p_small">
-            10 </div>
+            10        </div>
         <div class="portfolio_block block11 p_small">
-            11 </div>
+            11        </div>
     </section>
-    <script>
-        var elmnt = document.getElementById("block1");
-        alert(elmnt.Width);
-    </script>
+<script>
+var elmnt = document.getElementById("block1");
+alert(elmnt.Width);
+
+
+</script>
     <footer>
         <div>
             <a href="<?php echo $baseurl;?>">
@@ -191,5 +179,4 @@
         <a href="#top_point"> <i class="fa fa-chevron-up"></i></a>
     </div>
 </body>
-
 </html>

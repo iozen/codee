@@ -15,7 +15,7 @@
    version="1.1"
    id="svg8"
    inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)"
-   sodipodi:docname="icon.svg">
+   sodipodi:docname="icon_white.svg">
   <defs
      id="defs2" />
   <sodipodi:namedview
@@ -47,7 +47,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -58,21 +58,21 @@
      transform="translate(0,-292.76665)">
     <rect
        ry="0.30000001"
-       y="202.44753"
-       x="211.97554"
+       y="-213.72649"
+       x="-204.19847"
        height="2.7057884"
        width="0.796112"
        id="rect937"
-       style="opacity:0.98999999;fill:#464646;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.74317467;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
-       transform="rotate(45)" />
+       style="opacity:0.98999999;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.74317467;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+       transform="matrix(0.70710678,-0.70710678,-0.70710678,-0.70710678,0,0)" />
     <rect
-       style="opacity:0.98999999;fill:#464646;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.74317467;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+       style="opacity:0.98999999;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.74317467;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
        id="rect939"
        width="0.796112"
        height="2.7057884"
-       x="-205.15332"
-       y="210.06586"
+       x="211.02069"
+       y="-206.10815"
        ry="0.30000001"
-       transform="rotate(-45)" />
+       transform="matrix(0.70710678,0.70710678,0.70710678,-0.70710678,0,0)" />
   </g>
 </svg>

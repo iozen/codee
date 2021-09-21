@@ -28,6 +28,11 @@ html * {
     src: url(../fonts/TTNorms-Light.ttf) format("truetype");
 }
 
+@font-face {
+    font-family: "TT Norms Black";
+    src: url(../fonts/TTNorms-Black.ttf) format("truetype");
+}
+
 body {
     margin: 0;
     font-size: 14px;
@@ -63,9 +68,11 @@ textarea {
 /* top menu */
 .wrapper {
     width: 100%;
+    /*    padding: 0 5% 0 5%;*/
     position: fixed;
     z-index: 999;
     background-color: #fff;
+    /*background-color: green;*/
 }
 
 .wrapper_100h {
@@ -89,6 +96,8 @@ textarea {
 .menu_mobile_x {
     padding-bottom: 30px;
 }
+
+.menu {}
 
 .menu a {
     color: #262626;
@@ -279,7 +288,6 @@ textarea {
     padding-top: 40px;
     width: 34px;
 }
-
 .meanmenu-reveal {
     border: 1px solid #464646;
     color: #464646;
@@ -298,90 +306,8 @@ textarea {
     width: 22px;
     height: 3px;
     background-color: #000;
+/*   transform: rotate(45deg); */
 }
-.meanmenu-reveal .first_span {
-    animation-name: rotare_humbr;
-    animation-duration: 150ms;
-    animation-timing-function: linear;
-    animation-fill-mode: forwards;
-    transform-origin: center left;
-    position: relative;
-    top: -0.8px;
-
-}
-
-.meanmenu-reveal .last_span {
-    animation-name: rotare_humbr_down;
-    animation-duration: 150ms;
-    animation-timing-function: linear;
-    animation-fill-mode: forwards;
-    transform-origin: center left;
-    position: relative;
-    top: 0.8px;
-    
-}
-
-@keyframes rotare_humbr {
-    from {
-        transform: rotate(0deg);
-        left: 0;
-    }
-    to {
-        transform: rotate(38deg);
-        left: 2px;
-
-    }
-}
-@keyframes rotare_humbr_down {
-    from {
-        transform: rotate(0deg);
-        left: 0;
-    }
-    to {
-        transform: rotate(-38deg);
-        left: 2px;
-    }
-}
-@keyframes rotare_humbr_middle {
-    from {
-       opacity:1;
-    }
-    to {
-       opacity:0;
-    }
-}
-.meanmenu-reveal .middle_span {
-    border: solid 1px #000;
-    background-color: #000;
-    animation-name: rotare_humbr_middle;
-    animation-duration: 100ms;
-    animation-timing-function: linear;
-    animation-fill-mode: forwards;
-}
-
-/*
-.meanmenu-reveal .first_span {
-       transform: rotate(38deg); 
-       transform-origin: center left;
-       position: relative;
-       top:-0.8px;
-       left: 2.5px;
-
-}
-.meanmenu-reveal .last_span {
-       transform: rotate(-38deg); 
-       transform-origin: center left;
-       position: relative;
-       top:0.8px;
-       left: 2.5px;
-}
-
-.meanmenu-reveal .middle_span {
-    border: solid 1px #fff;
-    background-color:#fff;
-}
-*/
-
 
 .nav_x {
     padding: 5px 5px 5px 5px;
@@ -399,50 +325,33 @@ textarea {
     border-right: solid 14px #fff;
     border-bottom: solid 84px #fff;
     height: 100%;
-    /*    padding-top: 60px;*/
+    padding-top: 60px;
     overflow: scroll;
     -ms-overflow-style: none;
     /* IE and Edge */
     scrollbar-width: none;
     /* Firefox */
 }
-
-.mobile_menu_close_point {
-
-    position: relative;
-    top: -120px;
-    opacity: 0.6;
-    height: 0;
-
-
-}
-
 .mobile_menu::-webkit-scrollbar {
-    display: none;
+  display: none;
 }
 
 .mobile_menu:hover {}
 
 .mobile_menu_block div {
     padding: 12px 12px 12px 20px;
-
 }
-
-
-
 
 .mobile_menu_block a {
     color: #fff;
-    border-bottom: solid 1px #a6a6a6;
+    /*    color: #000;*/
+    /*    border-bottom: solid 1px #a6a6a6;*/
     display: block;
-    font-size: 14px;
+    font-weight: bold;
+    font-size: 24px;
     padding-left: 2%;
     text-align: left;
     line-height: 0.6em;
-}
-
-a.mobile_menu_last {
-    border-bottom: none;
 }
 
 .mobile_menu_block a:hover {
@@ -468,7 +377,7 @@ a.mobile_menu_last {
 .mobile_menu_sub a {
     padding-left: 7%;
     border-bottom: solid 1px #595959;
-    color: #fff;
+    color: #000;
     font-weight: 18px;
 }
 
@@ -653,6 +562,7 @@ footer div {
     }
 }
 
+/* to top bt */
 #toTop {
     text-align: center;
     bottom: 35px;
