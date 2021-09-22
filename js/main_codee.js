@@ -15,6 +15,15 @@ $(document).ready(function() {
     $('.p_big_bot').css('height', height_bot);
 
     /*header menu */
+    $('.slider_bt_a, #pointer').click(function() {
+        height_w = window.innerHeight;
+        end_point = height_w - 55;
+        $("html,body").animate({
+            scrollTop: end_point
+        }, 500)
+
+    });
+
 
     $(".meanmenu-reveal, .mobile_menu_close_point").click(function() {
         if ($('.mobile_menu').is(':visible')) {} else {

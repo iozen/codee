@@ -118,7 +118,7 @@
             <div class="slider-text-block">
                 <h2 class="slider-text-h2" id="slider_action">
                     <span id="slider_bt">
-                        <a href="#point" class="slider_bt_a">
+                        <a href="#" class="slider_bt_a">
                             <span class="headline-text-el">the spirit </span><br>
                             <span class="headline-text-el">of</span><br>
                             <span class="headline-text-el" style="padding-right:15px;"> home</span>
@@ -130,49 +130,140 @@
 
     </section>
     <div class="pointer_wrapper" align="center">
-        <a href="#point"> <span id="pointer"><img src="img/icon.svg"></span></a>
+        <a href="#"> <span id="pointer"><img src="img/icon.svg"></span></a>
     </div>
     <section class="portfolio_wrapper">
         <div class="portfolio_block block1 p_small" id="point">
             <div class="portfolio_item_cont">
                 <div class="portfolio_item_title">
-                    HIVE <br>
-                    coffe<br>
-                    table
+                    coffee table
                 </div>
-                <div class="portfolio_item_link"> SHOP</div>
+                <div class="portfolio_item_cat">
+                    HIVE </div>
+                <div class="portfolio_item_link"> shop here</div>
             </div>
+
         </div>
 
         <div class="portfolio_block block2 p_small">
-            <div class="portfolio_item_cont">
-                <div class="portfolio_item_title">Chears </div>
-                <div>-</div>
-                <div class="portfolio_item_link"> SHOP</div>
+
+<div class="portfolio_item_cont">
+                <div class="portfolio_item_title">
+                    coffee table
+                </div>
+                <div class="portfolio_item_cat">
+                    HIVE </div>
+                <div class="portfolio_item_link"> shop here</div>
             </div>
+
         </div>
         <div class="portfolio_block block3 p_big">
-            3333
+<div class="portfolio_item_cont">
+                <div class="portfolio_item_title">
+                    coffee table
+                </div>
+                <div class="portfolio_item_cat">
+                    HIVE </div>
+                <div class="portfolio_item_link"> shop here</div>
+            </div>
         </div>
         <div class="portfolio_block block4 p_big">
-            4444 </div>
+<div class="portfolio_item_cont">
+                <div class="portfolio_item_title">
+                    coffee table
+                </div>
+                <div class="portfolio_item_cat">
+                    HIVE </div>
+                <div class="portfolio_item_link"> shop here</div>
+            </div>
+
+
+             </div>
         <div class="portfolio_block block5 p_small">
-            5555
-        </div>
+
+<div class="portfolio_item_cont">
+                <div class="portfolio_item_title">
+                    coffee table
+                </div>
+                <div class="portfolio_item_cat">
+                    HIVE </div>
+                <div class="portfolio_item_link"> shop here</div>
+            </div>
+
+                   </div>
         <div class="portfolio_block block6 p_small">
-            6666 </div>
+<div class="portfolio_item_cont">
+                <div class="portfolio_item_title">
+                    coffee table
+                </div>
+                <div class="portfolio_item_cat">
+                    HIVE </div>
+                <div class="portfolio_item_link"> shop here</div>
+            </div>
+
+
+            </div>
         <div class="portfolio_block block7 p_small">
-            7777
+
+<div class="portfolio_item_cont">
+                <div class="portfolio_item_title">
+                    coffee table
+                </div>
+                <div class="portfolio_item_cat">
+                    HIVE </div>
+                <div class="portfolio_item_link"> shop here</div>
+            </div>
+
         </div>
         <div class="portfolio_block block8 p_big_bot">
-            8888 </div>
+
+<div class="portfolio_item_cont">
+                <div class="portfolio_item_title">
+                    coffee table
+                </div>
+                <div class="portfolio_item_cat">
+                    HIVE </div>
+                <div class="portfolio_item_link"> shop here</div>
+            </div>
+
+             </div>
         <div class="portfolio_block block9 p_small">
-            9999
+           
+<div class="portfolio_item_cont">
+                <div class="portfolio_item_title">
+                    coffee table
+                </div>
+                <div class="portfolio_item_cat">
+                    HIVE </div>
+                <div class="portfolio_item_link"> shop here</div>
+            </div>
+
+
         </div>
         <div class="portfolio_block block10 p_small">
-            10 </div>
+<div class="portfolio_item_cont">
+                <div class="portfolio_item_title">
+                    coffee table
+                </div>
+                <div class="portfolio_item_cat">
+                    HIVE </div>
+                <div class="portfolio_item_link"> shop here</div>
+            </div>
+
+
+             </div>
         <div class="portfolio_block block11 p_small">
-            11 </div>
+
+<div class="portfolio_item_cont">
+                <div class="portfolio_item_title">
+                    coffee table
+                </div>
+                <div class="portfolio_item_cat">
+                    HIVE </div>
+                <div class="portfolio_item_link"> shop here</div>
+            </div>
+
+             </div>
     </section>
     <footer>
         <div>
