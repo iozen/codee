@@ -15,20 +15,22 @@ $(document).ready(function() {
     $('.p_big_bot').css('height', height_bot);
 
     /*header menu */
+
     $(".meanmenu-reveal, .mobile_menu_close_point").click(function() {
+        if ($('.mobile_menu').is(':visible')) {} else {
+            var height = window.innerHeight;
+            $(".mobile_menu").animate({
+                height: height + "px"
+            }, 0);
+        }
         $(".mobile_menu").slideToggle("medium");
-     /*   $(".mm-span").toggle();
-        $(".mm-x").toggle();*/
         if ($('#toTop').is(':visible')) {
             $("#toTop").toggle();
         }
         $(".wrapper").toggleClass('wrapper_100h');
-
         $("#istart_span").toggleClass('first_span');
         $("#imiddle_span").toggleClass('middle_span');
         $("#ilast_span").toggleClass('last_span');
-
-
 
     });
 
@@ -38,20 +40,25 @@ $(document).ready(function() {
     });
 
     /* Smooth Scrolling */
-    $(function() {
-        // $('a[href*=#]:not([href=#])').click(function() {
-        $("a[href*='#']:not([href='#'])").click(function() {
-            if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
-                var target = $(this.hash);
-                target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
-                if (target.length) {
-                    $('html,body').animate({
-                        scrollTop: target.offset().top - 70
-                    }, 1000);
-                    return false;
+    /*
+        $(function() {
+            $("a[href*='#']:not([href='#'])").click(function() {
+                if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
+                    var target = $(this.hash);
+                    target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+                    if (target.length) {
+                        $('html,body').animate({
+                            scrollTop: target.offset().top - 70
+                        }, 1000);
+                        return false;
+                    }
                 }
-            }
+            });
         });
+    */
+
+    var scroll = new SmoothScroll('a[href*="#"]', {
+        speed: 250
     });
 
     /* form  */

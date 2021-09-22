@@ -6,23 +6,19 @@
     <title>Codee | Home </title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="shortcut icon" type="image/x-icon" href="<?php echo $baseurl;?>img/favicon.png">
-    <link rel="stylesheet" href="<?php echo $baseurl;?>css/s3.css">
+    <link rel="stylesheet" href="<?php echo $baseurl;?>css/s.css">
     <link rel="stylesheet" href="<?php echo $baseurl;?>css/font-awesome/css/font-awesome.min.css">
-    <script src="jquery/jquery-3.1.1.min.js"></script>
-    <script src="js/main_codee.js"></script>
-    <script src="js/to_top.js"></script>
+    <script src="<?php echo $baseurl;?>jquery/jquery-3.1.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@15/dist/smooth-scroll.polyfills.min.js"></script>
+    <script src="<?php echo $baseurl;?>js/main_codee.js"></script>
+    <script src="<?php echo $baseurl;?>js/to_top.js"></script>
+    <!-- Get minor updates and patch fixes within a major version -->
 </head>
 
 <body id="top_point">
-
     <section class="mobile_menu_wrapper">
 
-
-
-
     </section>
-
-
     <section class="header__wrapper">
         <header class="top">
             <div class="wrapper">
@@ -54,9 +50,6 @@
                             <span id="istart_span"></span>
                             <span id="imiddle_span"></span>
                             <span id="ilast_span"></span>
-                        </b>
-                        <b href="#nav" class="meanmenu-reveal mm-x">
-                            <b class="nav_x">X</b>
                         </b>
                     </div>
                 </div>
@@ -141,9 +134,22 @@
     </div>
     <section class="portfolio_wrapper">
         <div class="portfolio_block block1 p_small" id="point">
-            1111 </div>
+            <div class="portfolio_item_cont">
+                <div class="portfolio_item_title">
+                    HIVE <br>
+                    coffe<br>
+                    table
+                </div>
+                <div class="portfolio_item_link"> SHOP</div>
+            </div>
+        </div>
+
         <div class="portfolio_block block2 p_small">
-            2222
+            <div class="portfolio_item_cont">
+                <div class="portfolio_item_title">Chears </div>
+                <div>-</div>
+                <div class="portfolio_item_link"> SHOP</div>
+            </div>
         </div>
         <div class="portfolio_block block3 p_big">
             3333
@@ -168,10 +174,6 @@
         <div class="portfolio_block block11 p_small">
             11 </div>
     </section>
-    <script>
-        var elmnt = document.getElementById("block1");
-        alert(elmnt.Width);
-    </script>
     <footer>
         <div>
             <a href="<?php echo $baseurl;?>">
