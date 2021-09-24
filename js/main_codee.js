@@ -4,9 +4,15 @@ $(document).ready(function() {
     var offsetWidth = elmnt.offsetWidth;
 
     var prop = 1.184;
+    width_w = window.innerWidth;
+
     height_s = prop * offsetWidth;
     height_s = Math.round(height_s);
-    height_b = height_s * 2;
+    if (width_w >= 700) {
+        height_b = height_s * 2;
+    } else {
+        height_b = height_s;
+    }
     height_bot = height_b + 14;
 
     $('.p_small').css('height', height_s);
@@ -18,6 +24,7 @@ $(document).ready(function() {
     $('.slider_bt_a, #pointer').click(function() {
         height_w = window.innerHeight;
         end_point = height_w - 55;
+
         $("html,body").animate({
             scrollTop: end_point
         }, 500)

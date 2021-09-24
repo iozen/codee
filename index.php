@@ -119,7 +119,7 @@
                 <h2 class="slider-text-h2" id="slider_action">
                     <span id="slider_bt">
                         <a href="#" class="slider_bt_a">
-                            <span class="headline-text-el">the spirit </span><br>
+                            <span class="headline-text-el">Ambiance </span><br>
                             <span class="headline-text-el">of</span><br>
                             <span class="headline-text-el" style="padding-right:15px;"> home</span>
                         </a>
