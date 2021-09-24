@@ -28,6 +28,11 @@ html * {
     src: url(../fonts/TTNorms-Light.ttf) format("truetype");
 }
 
+@font-face {
+    font-family: "TT Norms Bold";
+    src: url(../fonts/TTNorms-Bold.ttf) format("truetype");
+}
+
 body {
     margin: 0;
     font-size: 14px;
@@ -571,8 +576,8 @@ footer div {
 .portfolio_block:hover .portfolio_item_cont {
     display: flex;
     justify-content: space-between;
- /*   background-color: rgba(0, 0, 0, 0.6);*/
- background-color: rgba(0, 0, 0, 0.6);
+    /*   background-color: rgba(0, 0, 0, 0.6);*/
+    background-color: rgba(0, 0, 0, 0.6);
     font-weight: lighter;
     padding: 0 5px;
     font-size: 13px;
@@ -582,8 +587,8 @@ footer div {
     .portfolio_item_cont {
         display: flex;
         justify-content: space-between;
-/*        background-color: rgba(0, 0, 0, 0.6);*/
- background-color: rgba(0, 0, 0, 0.6);
+        /*        background-color: rgba(0, 0, 0, 0.6);*/
+        background-color: rgba(0, 0, 0, 0.6);
         font-weight: lighter;
         padding: 0 5px;
         font-size: 13px;
@@ -686,7 +691,6 @@ footer div {
 }
 
 @media screen and (max-width: 1200px) {
-
     .portfolio_block {
         opacity: 1;
     }
@@ -834,10 +838,80 @@ footer div {
     color: #fff;
     line-height: 37px;
     font-weight: bold;
-     background-color: rgba(0, 0, 0, 0.6);
+    background-color: rgba(0, 0, 0, 0.6);
 }
 
 #toTop i:hover {
     background-color: #666;
     color: #fff;
+}
+
+/* breadcrumbs */
+.breadcrumbs_c {
+    display: flex;
+    justify-content: center;
+    background-color: #f6f6f6;
+    padding: 80px 7px 80px 7px;
+    border-top: solid 1px #f1f1f1;
+    border-bottom: solid 1px #f1f1f1;
+}
+
+.breadcrumbs {
+    width: 1000px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 70px 7px 7px 7px;
+}
+
+.breadcrumbs h2 {
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'TT Norms Bold';
+    color: #666666;
+
+}
+
+.breadcrumbs_item_b {
+    padding-top: 10px;
+    font-family: 'TT Norms Bold';
+    font-size: 14px;
+    color: #666666;
+}
+
+.breadcrumbs_item_b a {
+    color: #666666;
+}
+
+/* pages */
+.content_s {
+    font-size: 16px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 0 7px 0 7px;
+}
+
+.content_s_cont {
+    width: 1000px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap-reverse;
+}
+
+.c_item {
+    flex-grow: 1;
+    flex-basis: 500px;
+    text-align: justify;
+    padding: 7px;
+}
+
+.c_item p {
+    padding-top: 0px;
+    margin-top: 6px;
+}
+
+.c_item img {
+    position: relative;
+    top: 10px;
 }

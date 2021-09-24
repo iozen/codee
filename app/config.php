@@ -7,7 +7,7 @@ define("DB_LOGIN", "---");
 define("DB_PASS", "---");
 /*  Options  */
 /*$baseurl = "http://192.168.88.254/dimon/codee/";*/
-$baseurl = "http://codee.loc/";
-$baseurl = "http://codeehome.com/";
+//$baseurl = "http://codee.loc/";
+$baseurl = "https://codeehome.com/";
 
  ?>
