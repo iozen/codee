@@ -5,7 +5,7 @@
         </div>
         <div>Phone : +48796301383</div>
         <div>Email : info@codeehome.com</div>
-        <div>Address : Your address goes here.</div>
+        <div>Address : Poland, Kraków, Niepokalanej Panny Marii 8</div>
         <div class="social_icon">
             <a href="https://www.instagram.com/codeehome/?hl=en" target="_blank">
                 <i class="fa fa-instagram"></i>
