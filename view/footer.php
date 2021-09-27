@@ -1,5 +1,5 @@
     <footer>
-        <div>
+       <div>
             <a href="<?php echo $baseurl;?>">
                 <img src="<?php echo $baseurl;?>img/logo.svg"></a>
         </div>

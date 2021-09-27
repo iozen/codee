@@ -869,7 +869,6 @@ footer div {
     font-weight: bold;
     font-family: 'TT Norms Bold';
     color: #666666;
-
 }
 
 .breadcrumbs_item_b {
@@ -881,6 +880,11 @@ footer div {
 
 .breadcrumbs_item_b a {
     color: #666666;
+}
+
+.breadcrumbs_item_b a:hover {
+    color: #999;
+    transition: color 1s;
 }
 
 /* pages */
@@ -896,6 +900,13 @@ footer div {
     width: 1000px;
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.content_s_cont_rev {
+    width: 1000px;
+    display: flex;
+    justify-content: space-between;
     flex-wrap: wrap-reverse;
 }
 
@@ -903,15 +914,92 @@ footer div {
     flex-grow: 1;
     flex-basis: 500px;
     text-align: justify;
-    padding: 7px;
+    padding: 14px 7px 14px 7px;
+    /*    font-family: 'Geneva', 'sans-serif'; */
+    color: #464646;
 }
 
-.c_item p {
-    padding-top: 0px;
-    margin-top: 6px;
+.block_cont {
+    padding-top: 14px;
+}
+
+.block_cont .c_item {
+    padding: 0 7px 0 7px;
+}
+
+.c_item p,
+ol {
+    font-family: Roboto, Helvetica, sans-serif;
+    font-weight: lighter;
+    margin-top: 0px;
+}
+
+.c_item ol,
+li {
+    padding: 0;
+    margin: 0;
+}
+
+.c_item .title {
+    text-transform: uppercase;
+}
+
+.c_item span {
+    font-family: Roboto, Helvetica, sans-serif;
+    font-weight: lighter;
 }
 
 .c_item img {
-    position: relative;
-    top: 10px;
+    padding-top: 3px;
+    padding-bottom: 2px;
+    /*    position: relative;
+    top: 2px;*/
+}
+
+
+/* form inputs  */
+
+.form_input {
+    padding: 14px 21px;
+    margin: 0 0 14px 0;
+    border: solid 1px #ddd;
+    width: 100%;
+    font-size: 14px;
+    font-family: Roboto, Helvetica, sans-serif;
+    font-weight: lighter;
+}
+
+#send_message {
+    background-color: #666666;
+    padding: 2px 21px 2px 21px;
+    color: #fff;
+    font-weight: normal;
+    /*  font-family: Roboto, Helvetica, sans-serif;*/
+    font-family: 'TT Norms', sans-serif;
+    font-size: 16px;
+    margin-bottom: 0;
+}
+
+#send_message:hover {
+
+    border: solid 1px #666666;
+    background-color: #fff;
+    color: #666666;
+    transition: color 1s;
+    transition: background-color 500ms;
+    cursor: pointer;
+}
+
+.form_sub {
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+.form_input:focus {
+    border: solid 1px #b3b3b3;
+    outline: none;
+}
+.form-message {
+    padding-bottom: 14px;
+    display: none;
 }

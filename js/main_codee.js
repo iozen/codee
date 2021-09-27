@@ -78,6 +78,7 @@ $(document).ready(function() {
     });
 
     /* form  */
+
     $('#form_body').submit(function(e) {
         e.preventDefault();
         pib = $('#pib').val();
