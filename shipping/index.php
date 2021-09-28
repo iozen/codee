@@ -120,7 +120,7 @@
             </div>
 
             <div class="c_item">
-                <ol>
+                <ol class="ol_item">
                     <li> Notify by email on: info@codeehome.com within 14 days after receiving your order that you want to
                         return something
                     </li>
@@ -155,21 +155,21 @@
 
             <div class="c_item">
 
-                    <p>
-                        We want all our customers to receive high quality products. If there is something wrong with the product
-                        you have received or if your delivery is not identical to your order (wrong product or if a product is
-                        missing), please contact us at: info@codeehome.com
-                    </p>
-                    <p>
-                        If you send us an e-mail, please include as many details as possible including your order number as well
-                        as some pictures if there is something wrong with one of the products.
-                    </p>
-                    <p>
-                        The items are your responsibility until they reach our warehouse. Please ensure you pack the return safely
-                        to prevent (any further) damage to the products or boxes. And please keep receipts and tracking codes as a
-                        proof of sending the items back.
-                    </p>
-</div>
+                <p>
+                    We want all our customers to receive high quality products. If there is something wrong with the product
+                    you have received or if your delivery is not identical to your order (wrong product or if a product is
+                    missing), please contact us at: info@codeehome.com
+                </p>
+                <p>
+                    If you send us an e-mail, please include as many details as possible including your order number as well
+                    as some pictures if there is something wrong with one of the products.
+                </p>
+                <p>
+                    The items are your responsibility until they reach our warehouse. Please ensure you pack the return safely
+                    to prevent (any further) damage to the products or boxes. And please keep receipts and tracking codes as a
+                    proof of sending the items back.
+                </p>
+            </div>
         </div>
     </section>
     <?php include_once '../view/footer.php'; ?>

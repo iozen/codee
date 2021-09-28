@@ -1,5 +1,5 @@
     <footer>
-       <div>
+       <div style="">
             <a href="<?php echo $baseurl;?>">
                 <img src="<?php echo $baseurl;?>img/logo.svg"></a>
         </div>
@@ -16,3 +16,4 @@
     <div id="toTop">
         <a href="#top_point"> <i class="fa fa-chevron-up"></i></a>
     </div>
+</div>

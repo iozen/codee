@@ -4,7 +4,7 @@
             <div class="item logo"><a href="<?php echo $baseurl;?>"><img src="<?php echo $baseurl;?>img/logo.svg"></a></div>
             <div class="item menu">
                 <ul class="header_menu_h">
-                <li><a href="<?php echo $baseurl; ?>">HOME</a></li>
+                    <li><a href="<?php echo $baseurl; ?>">HOME</a></li>
                     <li><a href="<?php echo $baseurl; ?>about/">ABOUT</a></li>
                     <li class="dropdown">PRODUCTS
                         <ul class="header_menu_h_sub">
@@ -15,16 +15,16 @@
                     </li>
                     <li class="dropdown">INFO
                         <ul class="header_menu_h_sub">
-                            <a href="<?php echo $baseurl;?>shipping/">
-                                <li>Shipping</li>
-                            </a>
+                            <li> <a href="<?php echo $baseurl;?>shipping/">
+                                    <div> Shipping</div>
+                                </a></li>
 
-                            <a href="<?php echo $baseurl;?>privacy/">
-                                <li>Privacy</li>
-                            </a>
-                            <a href="<?php echo $baseurl;?>terms/">
-                                <li>Terms</li>
-                            </a>
+                            <li> <a href="<?php echo $baseurl;?>privacy/">
+                                    <div> Privacy</div>
+                                </a> </li>
+                            <li> <a href="<?php echo $baseurl;?>terms/">
+                                    <div> Terms </div>
+                                </a> </li>
                         </ul>
                     </li>
                     <li><a href="<?php echo $baseurl; ?>contact/">CONTACT</a></li>
