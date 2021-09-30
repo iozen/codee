@@ -8,9 +8,9 @@
                     <li><a href="<?php echo $baseurl; ?>about/">ABOUT</a></li>
                     <li class="dropdown">PRODUCTS
                         <ul class="header_menu_h_sub">
-                            <li><a href="#">All</a></li>
-                            <li><a href="#">Seating</a></li>
-                            <li><a href="#">Tables</a></li>
+                        <li><a href="<?php echo $baseurl; ?>all/"><div>All</div></a></li>
+                            <li><a href="#"><div>Seating</div></a></li>
+                            <li><a href="#"><div>Tables</div></a></li>
                         </ul>
                     </li>
                     <li class="dropdown">INFO
@@ -57,7 +57,7 @@
                 </a>
 
                 <div class="mobile_menu_sub" id="sub_prod">
-                    <a href="#">
+                <a href="<?php echo $baseurl; ?>all/">
                         <div>All</div>
                     </a>
                     <a href="#">
