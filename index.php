@@ -1,11 +1,12 @@
 <?php include_once 'app/config.php';?>
 <?php include_once 'app/index_tools.php';?>
-<html>
+<html lang="en" translate="no" content="notranslate">
 
 <head>
     <?php include_once 'view/header.php'; ?>
     <script src="<?php echo $baseurl;?>js/main_codee.js"></script>
     <script src="<?php echo $baseurl;?>js/to_top.js"></script>
+<meta name="google" content="notranslate" />
 </head>
 
 <body id="top_point">

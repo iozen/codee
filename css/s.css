@@ -10,7 +10,6 @@
                                                       
 ----------------------------
 */
-
 html * {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -124,6 +123,8 @@ textarea {
     padding: 0 12px 0 12px;
     color: #464646;
     height: 45px;
+    overflow: -webkit-paged-y;
+
 }
 
 .header_menu_h li:hover {
@@ -133,7 +134,7 @@ textarea {
 
 .header_menu_h_sub {
     position: absolute;
-    padding: 0;
+    padding:0 0 0 0;
     margin: 0;
     top: 39px;
     box-shadow: 0px 7px 10px #ccc;
@@ -879,6 +880,17 @@ footer div {
     color: #666666;
 }
 
+@media screen and (max-width: 650px) {
+    .breadcrumbs_item_b {
+        display: none;
+    }
+
+    .breadcrumbs_item_h {
+        text-align: center;
+        width: 100%;
+    }
+}
+
 .breadcrumbs_item_b a {
     color: #666666;
 }
@@ -962,9 +974,7 @@ li {
     top: 2px;*/
 }
 
-
 /* form inputs  */
-
 .form_input {
     padding: 14px 21px;
     margin: 0 0 14px 0;
@@ -992,11 +1002,9 @@ li {
     box-shadow: unset;
     -webkit-appearance: none;
     -moz-appearance: none;
-
 }
 
 #send_message:hover {
-
     border: solid 1px #666666;
     background-color: #fff;
     color: #666666;
@@ -1021,9 +1029,7 @@ li {
 }
 
 /*  */
-
 /* Prods block */
-
 .product_wrapper {
     width: 100%;
     display: flex;
@@ -1034,13 +1040,13 @@ li {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 14px;
-    padding: 14px;
-    width: 1000px;
+    padding: 14px 0;
+    /* width: 1000px;*/
 }
 
 .prod_block {
-    width: 476px;
-    height: 570px;
+    width: 486px;
+    height: 575px;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
@@ -1054,33 +1060,26 @@ li {
 
 .prod1 {
     background: #ccc url("../img/products/1a.jpg") repeat scroll center center / cover;
-
 }
 
 .prod2 {
     background: #ccc url("../img/products/1b.jpg") repeat scroll center center / cover;
-
 }
 
 .prod3 {
     background: #ccc url("../img/products/2a.jpg") repeat scroll center center / cover;
-
-
 }
 
 .prod4 {
     background: #ccc url("../img/products/2b.jpg") repeat scroll center center / cover;
-
 }
 
 .prod5 {
     background: #ccc url("../img/products/3a.jpg") repeat scroll center center / cover;
-
 }
 
 .prod6 {
     background: #ccc url("../img/products/3b.jpg") repeat scroll center center / cover;
-
 }
 
 .prod_item_cont {
