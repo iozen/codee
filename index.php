@@ -44,11 +44,11 @@
         <div class="portfolio_block block2 p_small">
             <div class="portfolio_item_cont">
                 <div class="portfolio_item_title">
-                    coffee table
+                    bar stool
                 </div>
                 <div class="portfolio_item_link"> shop here</div>
             </div>
-            <div class="title_block"> HIVE</div>
+            <div class="title_block">LING</div>
         </div>
         <div class="portfolio_block block3 p_big">
             <div class="portfolio_item_cont">
@@ -57,7 +57,7 @@
                 </div>
                 <div class="portfolio_item_link"> shop here</div>
             </div>
-            <div class="title_block"> HIVE</div>
+            <div class="title_block">HIVE</div>
         </div>
         <div class="portfolio_block block4 p_big">
             <div class="portfolio_item_cont">
@@ -71,21 +71,21 @@
         <div class="portfolio_block block5 p_small">
             <div class="portfolio_item_cont">
                 <div class="portfolio_item_title">
-                    coffee table
+                    seating
                 </div>
                 <div class="portfolio_item_link"> shop here</div>
             </div>
-            <div class="title_block">HIVE</div>
+            <div class="title_block">CLOUDS</div>
         </div>
         <div class="portfolio_block block6 p_small">
             <div class="portfolio_item_cont">
                 <div class="portfolio_item_title">
-                    coffee table
+                    dining chair
                 </div>
                 <div class="portfolio_item_link"> shop here</div>
             </div>
             <div class="title_block">
-                HIVE</div>
+                LING</div>
         </div>
         <div class="portfolio_block block7 p_small">
             <div class="portfolio_item_cont">
@@ -100,42 +100,42 @@
         <div class="portfolio_block block8 p_big_bot">
             <div class="portfolio_item_cont">
                 <div class="portfolio_item_title">
-                    coffee table
+                    seating
                 </div>
                 <div class="portfolio_item_link"> shop here</div>
             </div>
             <div class="title_block">
-                HIVE</div>
+                CLOUDS</div>
         </div>
         <div class="portfolio_block block9 p_small">
             <div class="portfolio_item_cont">
                 <div class="portfolio_item_title">
-                    coffee table
+                    seating
                 </div>
                 <div class="portfolio_item_link"> shop here</div>
             </div>
             <div class="title_block">
-                HIVE</div>
+                CLOUDS</div>
         </div>
         <div class="portfolio_block block10 p_small">
             <div class="portfolio_item_cont">
                 <div class="portfolio_item_title">
-                    coffee table
+                    seating
                 </div>
                 <div class="portfolio_item_link"> shop here</div>
             </div>
             <div class="title_block">
-                HIVE</div>
+                CLOUDS</div>
         </div>
         <div class="portfolio_block block11 p_small">
             <div class="portfolio_item_cont">
                 <div class="portfolio_item_title">
-                    coffee table
+                    armchair
                 </div>
                 <div class="portfolio_item_link"> shop here</div>
             </div>
             <div class="title_block">
-                HIVE</div>
+                WEEKEND</div>
         </div>
     </section>
     <?php include_once 'view/footer.php'; ?>

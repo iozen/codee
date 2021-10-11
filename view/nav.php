@@ -1,7 +1,7 @@
 <header class="top">
     <div class="wrapper">
         <div class="top_block">
-            <div class="item logo"><a href="<?php echo $baseurl;?>"><img src="<?php echo $baseurl;?>img/logo.svg"></a></div>
+            <div class="item logo"><a href="<?php echo $baseurl;?>"><img src="<?php echo $baseurl;?>img/logo.svg" class="logo_img"></a></div>
             <div class="item menu">
                 <ul class="header_menu_h">
                     <li><a href="<?php echo $baseurl; ?>">HOME</a></li>
