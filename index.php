@@ -6,7 +6,7 @@
     <?php include_once 'view/header.php'; ?>
     <script src="<?php echo $baseurl;?>js/main_codee.js"></script>
     <script src="<?php echo $baseurl;?>js/to_top.js"></script>
-<meta name="google" content="notranslate" />
+    <meta name="google" content="notranslate" />
 </head>
 
 <body id="top_point">
@@ -37,114 +37,108 @@
                 <div class="portfolio_item_title">
                     coffee table
                 </div>
-                <div class="portfolio_item_cat">
-                    HIVE </div>
                 <div class="portfolio_item_link"> shop here</div>
             </div>
+            <div class="title_block">HIVE</div>
         </div>
         <div class="portfolio_block block2 p_small">
             <div class="portfolio_item_cont">
                 <div class="portfolio_item_title">
                     coffee table
                 </div>
-                <div class="portfolio_item_cat">
-                    HIVE </div>
                 <div class="portfolio_item_link"> shop here</div>
             </div>
+            <div class="title_block"> HIVE</div>
         </div>
         <div class="portfolio_block block3 p_big">
             <div class="portfolio_item_cont">
                 <div class="portfolio_item_title">
                     coffee table
                 </div>
-                <div class="portfolio_item_cat">
-                    HIVE </div>
                 <div class="portfolio_item_link"> shop here</div>
             </div>
+            <div class="title_block"> HIVE</div>
         </div>
         <div class="portfolio_block block4 p_big">
             <div class="portfolio_item_cont">
                 <div class="portfolio_item_title">
                     coffee table
                 </div>
-                <div class="portfolio_item_cat">
-                    HIVE </div>
                 <div class="portfolio_item_link"> shop here</div>
             </div>
+            <div class="title_block">HIVE</div>
         </div>
         <div class="portfolio_block block5 p_small">
             <div class="portfolio_item_cont">
                 <div class="portfolio_item_title">
                     coffee table
                 </div>
-                <div class="portfolio_item_cat">
-                    HIVE </div>
                 <div class="portfolio_item_link"> shop here</div>
             </div>
+            <div class="title_block">HIVE</div>
         </div>
         <div class="portfolio_block block6 p_small">
             <div class="portfolio_item_cont">
                 <div class="portfolio_item_title">
                     coffee table
                 </div>
-                <div class="portfolio_item_cat">
-                    HIVE </div>
                 <div class="portfolio_item_link"> shop here</div>
             </div>
+            <div class="title_block">
+                HIVE</div>
         </div>
         <div class="portfolio_block block7 p_small">
             <div class="portfolio_item_cont">
                 <div class="portfolio_item_title">
                     coffee table
                 </div>
-                <div class="portfolio_item_cat">
-                    HIVE </div>
                 <div class="portfolio_item_link"> shop here</div>
             </div>
+            <div class="title_block">
+                HIVE</div>
         </div>
         <div class="portfolio_block block8 p_big_bot">
             <div class="portfolio_item_cont">
                 <div class="portfolio_item_title">
                     coffee table
                 </div>
-                <div class="portfolio_item_cat">
-                    HIVE </div>
                 <div class="portfolio_item_link"> shop here</div>
             </div>
+            <div class="title_block">
+                HIVE</div>
         </div>
         <div class="portfolio_block block9 p_small">
             <div class="portfolio_item_cont">
                 <div class="portfolio_item_title">
                     coffee table
                 </div>
-                <div class="portfolio_item_cat">
-                    HIVE </div>
                 <div class="portfolio_item_link"> shop here</div>
             </div>
+            <div class="title_block">
+                HIVE</div>
         </div>
         <div class="portfolio_block block10 p_small">
             <div class="portfolio_item_cont">
                 <div class="portfolio_item_title">
                     coffee table
                 </div>
-                <div class="portfolio_item_cat">
-                    HIVE </div>
                 <div class="portfolio_item_link"> shop here</div>
             </div>
+            <div class="title_block">
+                HIVE</div>
         </div>
         <div class="portfolio_block block11 p_small">
             <div class="portfolio_item_cont">
                 <div class="portfolio_item_title">
                     coffee table
                 </div>
-                <div class="portfolio_item_cat">
-                    HIVE </div>
                 <div class="portfolio_item_link"> shop here</div>
             </div>
+            <div class="title_block">
+                HIVE</div>
         </div>
     </section>
     <?php include_once 'view/footer.php'; ?>
-
 </body>
 
 </html>

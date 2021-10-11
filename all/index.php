@@ -24,70 +24,63 @@
     <section class="product_wrapper">
         <div class="product_cont">
 
-            <div class="prod_block  p_small prod1" id="prod1">
+
+
+            <div class="prod_block p_small prod1" id="prod1">
                 <div class="prod_item_cont">
                     <div class="prod_item_title">
                         coffee table
                     </div>
-                    <div class="prod_item_cat">
-                        HIVE </div>
                     <div class="prod_item_link"> shop here</div>
                 </div>
-            </div>
 
-            <div class="prod_block  p_small prod2">
+
+            <div class="title_block">HIVE</div>
+            </div>
+            <div class="prod_block p_small prod2">
                 <div class="prod_item_cont">
                     <div class="prod_item_title">
                         coffee table
                     </div>
-                    <div class="prod_item_cat">
-                        HIVE </div>
                     <div class="prod_item_link"> shop here</div>
                 </div>
+            <div class="title_block">HIVE</div>
             </div>
-
             <div class="prod_block  p_small prod3">
                 <div class="prod_item_cont">
                     <div class="prod_item_title">
                         coffee table
                     </div>
-                    <div class="prod_item_cat">
-                        HIVE </div>
                     <div class="prod_item_link"> shop here</div>
                 </div>
+            <div class="title_block"> HIVE</div>
             </div>
-
             <div class="prod_block  p_small prod4">
                 <div class="prod_item_cont">
                     <div class="prod_item_title">
                         coffee table
                     </div>
-                    <div class="prod_item_cat">
-                        HIVE </div>
                     <div class="prod_item_link"> shop here</div>
                 </div>
+            <div class="title_block"> HIVE</div>
             </div>
             <div class="prod_block  p_small prod5">
                 <div class="prod_item_cont">
                     <div class="prod_item_title">
                         coffee table
                     </div>
-                    <div class="prod_item_cat">
-                        HIVE </div>
                     <div class="prod_item_link"> shop here</div>
                 </div>
+            <div class="title_block"> HIVE</div>
             </div>
-
             <div class="prod_block  p_small prod6">
-
                 <div class="prod_item_cont">
                     <div class="prod_item_title">
                         coffee table
                     </div>
-                    <div class="prod_item_cat">
-                        HIVE </div>
                     <div class="prod_item_link"> shop here</div>
                 </div>
+            <div class="title_block"> HIVE</div>
             </div>
 
         </div>
